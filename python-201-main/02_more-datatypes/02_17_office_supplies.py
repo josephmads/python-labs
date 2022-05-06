@@ -22,3 +22,31 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+
+
+
+# for d in office:
+#     fav_item = ""
+#     last_name = ""
+#     first_name = ""
+#     for k, v in d:
+#         print(v)
+#         if k == "full_name":
+#             rev_names = v
+#             rev_names = rev_names.split(" ")
+#             last_name = rev_names[1]
+#             first_name = rev_names[0]
+            
+#         if k == "item":
+#             fav_item = v
+#         if last_name and first_name and fav_item:
+#             print(f'{last_name}, {first_name} {fav_item}')
+
+for key, val in enumerate(office):
+    full_name = val["full_name"].split(" ")
+    last_name = full_name[1]
+    first_name = full_name[0]
+    item = val["item"]
+    
+    print(f'{last_name}, {first_name} {item}')
