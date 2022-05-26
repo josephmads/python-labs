@@ -5,7 +5,7 @@ def greet_many(greeting: str, *args: str) -> str:
         greeting (str): the greeting to use
 
     Returns:
-        str: Personalized grteeting for each name.
+        str: Personalized greeting for each name.
     """
     greetings = ""
     for name in args:
