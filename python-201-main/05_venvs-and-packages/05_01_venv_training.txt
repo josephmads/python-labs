@@ -7,3 +7,5 @@ Create a new folder. Inside of that folder:
 6. Delete the virtual environment.
 7. Create a new virtual environment.
 8. Install the packages that you recorded in the `requirements.txt` file.
+
+*complete*
