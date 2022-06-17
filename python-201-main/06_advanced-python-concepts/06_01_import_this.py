@@ -3,7 +3,8 @@
 # All the necessary variables and functions are
 # already defined in the `codingnomads/` folder.
 
-
+from codingnomads.ingredients import potato
+from codingnomads.recipes.soup import make_soup
 
 soup = make_soup(potato)
 print(soup)
