@@ -1,3 +1,5 @@
+# Making a Get Request using the requests package.
+
 import requests
 from pprint import pprint
 
