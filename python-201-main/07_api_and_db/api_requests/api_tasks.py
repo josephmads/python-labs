@@ -39,9 +39,8 @@ body = {
 response = requests.put(base_url, json=body)
 print(f"Response Code: {response.status_code}")
 
-
 # DELETE Tasks
 
 response = requests.delete(base_url + "/58")
 
-print(response.status_code)
+print(f"Response Code: {response.status_code}")

@@ -18,7 +18,8 @@ It is your responsibility to build out the application to handle all menu option
 import requests
 from pprint import pprint 
 
-base_url = "http://demo.codingnomads.co:8080/tasks_api/users"
+user_url = "http://demo.codingnomads.co:8080/tasks_api/users"
+tasks_url = "http://demo.codingnomads.co:8080/tasks_api/tasks"
 
 main_menu = '''
 Please select from the following options (enter the number of the action you'd like to take):
@@ -40,6 +41,7 @@ while running == True:
     user_input = user_input.upper()
 
     if user_input == "1":
+        # Create User Account
 
         first_name = input("Enter your first name: ")
         last_name = input("Enter your last name: ")
@@ -51,93 +53,111 @@ while running == True:
             "email": email
             }
 
-        response = requests.post(base_url, json=body)
-        response = requests.get(base_url)
+        response = requests.post(user_url, json=body)
+        response = requests.get(user_url)
 
         data = (response.json())
 
-        if response.status_code == 201:
+        if response.status_code == 201 or 200:
             print("Your account was successfully created.")
-            pprint(data['data'][-1])
+            pprint(data["data"][-1])
 
         input("Press ENTER to continue: ")    
 
         continue
 
     if user_input == "2":
+        # View all tasks
 
-        response = requests.get(base_url)
-        data = (response.json())
-        user_id = data["data"][64]["id"]
-        task_url = base_url + f"/{user_id}" + "/tasks"
+        user_id = input("Enter your User ID: ")
+        task_url = user_url + f"/{user_id}" + "/tasks"
         
         response = requests.get(task_url)
         data = response.json()
         tasks_list = data["data"]
 
-        print(f"Tasks: {tasks_list}")
+        print(f"All Tasks: {tasks_list}")
         input("Press ENTER to continue: ")
 
         continue
 
     if user_input == "3":
+        # View completed tasks
 
-        response = requests.get(base_url)
-        data = (response.json())
-        user_id = data["data"][64]["id"]
-        task_url = base_url + f"/{user_id}" + "/tasks?complete=true"
+        user_id = input("Enter your User ID: ")
+        task_url = user_url + f"/{user_id}" + "/tasks?complete=true"
         
         response = requests.get(task_url)
         data = response.json()
         tasks_list = data["data"]
 
-        print(f"Tasks: {tasks_list}")
+        print(f"Completed Tasks: {tasks_list}")
         input("Press ENTER to continue: ")
 
         continue
 
     if user_input == "4":
+        # View incompolete tasks
 
-        response = requests.get(base_url)
-        data = (response.json())
-        user_id = data["data"][64]["id"]
-        task_url = base_url + f"/{user_id}" + "/tasks?complete=false"
+        user_id = input("Enter your User ID: ")
+        task_url = user_url + f"/{user_id}" + "/tasks?complete=false"
         
         response = requests.get(task_url)
         data = response.json()
         tasks_list = data["data"]
 
-        print(f"Tasks: {tasks_list}")
+        print(f"Incomplete Tasks: {tasks_list}")
         input("Press ENTER to continue: ")
 
         continue
 
     if user_input == "5":
+        # Create tasks
         
+        user_id = input("Enter your User ID: ")
         task_name = input("Enter a name for your task: ")
         task_des = input("Enter a description for your task: ")
 
         task_body = {
-            "userId": 205,
+            "userId": user_id,
             "name": task_name,
             "description": task_des,
             "completed": False
         }
-        
-        response = requests.get(base_url)
-        data = (response.json())
-        user_id = data["data"][64]["id"]
-        task_url = base_url + f"/{user_id}" + "/tasks"
+        task_url = user_url + f"/{user_id}" + "/tasks"
 
         response = requests.post(task_url, json=task_body)
 
+        if response.status_code == 201:
+            print("Your task was successfully created.")
+
+        continue
+
     if user_input == "6":
-        # update existing task (put) mark as complete
-        pass
+        # Update existing task
+
+        user_id = input("Enter your User ID: ")
+        task_name = input("Enter a name for your task: ")
+        task_des = input("Enter a description for your task: ")
+
+        task_body = {
+            "userId": user_id,
+            "name": task_name,
+            "description": task_des,
+            "completed": False
+        }
+        task_url = user_url + f"/{user_id}" + "/tasks"
+
+        response = requests.put(task_url, json=task_body)
+
+        if response.status_code == 200:
+            print("Your task was successfully updated.")
+
+        continue
 
     if user_input == "7":
         del_task = input("Enter the task you would like to delete: ")
-        response = requests.delete(base_url + del_task)
+        response = requests.delete(user_url + del_task)
 
         if response.status_code == 200:
             print("Your task was successfully deleted.")
