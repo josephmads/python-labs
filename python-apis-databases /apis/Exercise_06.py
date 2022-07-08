@@ -97,7 +97,7 @@ while running == True:
         continue
 
     if user_input == "4":
-        # View incompolete tasks
+        # View incomplete tasks
 
         user_id = input("Enter your User ID: ")
         task_url = user_url + f"/{user_id}" + "/tasks?complete=false"
@@ -156,8 +156,8 @@ while running == True:
         continue
 
     if user_input == "7":
-        del_task = input("Enter the task you would like to delete: ")
-        response = requests.delete(user_url + del_task)
+        del_task = input("Enter the ID of the task you would like to delete: ")
+        response = requests.delete(user_url + "/"+ del_task)
 
         if response.status_code == 200:
             print("Your task was successfully deleted.")
