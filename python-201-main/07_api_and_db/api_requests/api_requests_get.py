@@ -10,7 +10,12 @@ response = requests.get(base_url)
 
 data = (response.json())
 
-pprint(data['data'][0]['first_name'])
+all_users = data["data"]
+
+my_user = next(item for item in all_users if item["id"] == 205)
+first_n = my_user["first_name"]
+
+pprint(f"Response Content: {first_n}")
 
 # print(f"Response Content: {response.content}")
 # print(f"Response Status Code: {response.status_code}")
