@@ -14,6 +14,7 @@ password = os.environ["PASSWORD"]
 engine = sqlalchemy.create_engine(f"mysql+pymysql://joe:{password}@localhost/sakila")
 connection = engine.connect()
 metadata = sqlalchemy.MetaData()
+
 film = sqlalchemy.Table("film", metadata, autoload=True, autoload_with=engine)
 category = sqlalchemy.Table("category", metadata, autoload=True, autoload_with=engine)
 
