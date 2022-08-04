@@ -5,7 +5,6 @@ the list to the console.
 '''
 
 import requests
-from pprint import pprint
 
 base_url = "http://demo.codingnomads.co:8080/tasks_api/users"
 

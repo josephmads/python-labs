@@ -17,10 +17,8 @@ The more dynamic the application, the better!
 
 '''
 
-
 import sqlalchemy as sa
 import os
-from pprint import pprint
 
 password = os.environ["PASSWORD"]
 
@@ -54,185 +52,336 @@ charters = sa.Table("charters", metadata,
 
 # metadata.create_all(engine)
 
+### VARIABLES AND FUNCTIONS
+
 captains = sa.Table("captains", metadata, autoload=True, autoload_with=engine)
-boats = sa.Table("captains", metadata, autoload=True, autoload_with=engine)
-charters = sa.Table("captains", metadata, autoload=True, autoload_with=engine)
+boats = sa.Table("boats", metadata, autoload=True, autoload_with=engine)
+charters = sa.Table("charters", metadata, autoload=True, autoload_with=engine)
 
+show_tables = ("\nTABLES \n"
+               "1. captains\n"
+               "2. boats\n"
+               "3. charters\n"
+               "0. MAIN MENU")
 
+table_dict = {
+    1 : captains,
+    2 : boats,
+    3 : charters
+}
 
-### Insert Data 
+## Display Table
 
-insert_stmt = sa.insert(captains).values(cap_id=1, first_name="Joseph", last_name="Madsen", email="joemadsen@mail.com", rating=32)
-# insert_result = connection.execute(insert_stmt)
+def display_table(table_choice):
+    """Displays MySQL table.
 
-def insert_table():
-    
-    print("TABLES \n"
-    "1. captains\n"
-    "2. boats\n"
-    "3. charters")
-    table = int(input("Enter the number of the table to insert to: "))
-
-    if table == 1:
-        table = captains
-        f_name = input("Enter the new captain's FIRST NAME: ")
-        l_name = input("Enter the new captain's LAST NAME: ")
-        email_in = input("Enter the new captain's EMAIL: ")
-        rating_in = input("Enter the new captain's RATING: ")
-
-        ins_table = sa.insert(table).values(first_name=f_name, last_name=l_name, email=email_in, rating=rating_in)
-        result = (connection.execute(ins_table))
-        print("New record created.")
-
-    if table == 2:
-        table = boats
-        name = input("Enter the new boat's NAME: ")
-        length = input("Enter the new boat's LENGTH: ")
-
-        ins_table = sa.insert(table).values(boat_name=name, boat_length=length)
-        result = (connection.execute(ins_table))
-        print("New record created.")
-
-    if table == 3:
-        table = charters
-        s_date = input("Enter the charter START DATE (yyyy-mm-dd): ")
-        b_id = input("Enter the charter BOAT ID: ")
-        c_id = input("Enter the charter CAPTAIN ID: ")
-        r_date = input("Enter the charter END DATE (yyyy-mm-dd): ")
-
-        ins_table = sa.insert(table).values(start_date=s_date, boat_id=b_id, cap_id=c_id, return_date=r_date)
-        result = (connection.execute(ins_table))
-        print("New record created.")
-    
-    else:
-        print("Invalid choice.")
-
-
-### Update Data
-
-# update_stmt = sa.update(captains).values(last_name="Snodgrass").where(captains.columns.cap_id == 1)
-# update_result = connection.execute(update_stmt)
-
-def display_table(table):
+    Args:
+        table_choice (int): selects the table
+        to be displayed.
+    """
         
-    display = sa.select(table)
+    display = sa.select(table_choice)
     proxy = connection.execute(display)
     result = proxy.fetchall()
 
+    row_title = ""
+    row_value = ""
+    labels = table_choice.columns.keys()
+
+    print("\nTABLE")
+
+    for label in labels:
+        label += ", "
+        row_title += label 
+    print(row_title)
+
     for row in result:
-        print(row)
+        for item in row:
+            item = str(item)
+            item += ", "
+            row_value += item
+        print(row_value)
+        row_value = ""
+
+### Insert Data 
+
+def insert_table():
+    
+    sub_loop = True
+    while sub_loop == True:
+
+        print(show_tables)
+        table_choice = int(input("Enter the number of the table to insert to: "))
+
+        if table_choice == 1:
+            table_choice = captains
+            f_name = input("Enter the new captain's FIRST NAME: ")
+            l_name = input("Enter the new captain's LAST NAME: ")
+            email_in = input("Enter the new captain's EMAIL: ")
+            rating_in = input("Enter the new captain's RATING: ")
+
+            ins_table = sa.insert(table_choice).values(first_name=f_name, last_name=l_name, email=email_in, rating=rating_in)
+            result = (connection.execute(ins_table))
+            print("New record created.")
+            continue
+
+        if table_choice == 2:
+            table_choice = boats
+            name = input("Enter the new boat's NAME: ")
+            length = input("Enter the new boat's LENGTH: ")
+
+            ins_table = sa.insert(table_choice).values(boat_name=name, boat_length=length)
+            result = (connection.execute(ins_table))
+            print("New record created.")
+            continue
+
+        if table_choice == 3:
+            table_choice = charters
+            s_date = input("Enter the charter START DATE (yyyy-mm-dd): ")
+            b_id = input("Enter the charter BOAT ID: ")
+            c_id = input("Enter the charter CAPTAIN ID: ")
+            r_date = input("Enter the charter END DATE (yyyy-mm-dd): ")
+
+            ins_table = sa.insert(table_choice).values(start_date=s_date, boat_id=b_id, cap_id=c_id, return_date=r_date)
+            result = (connection.execute(ins_table))
+            print("New record created.")
+            continue
+
+        if table_choice == 0:
+            sub_loop = False
+            return(print("Back to main menu...\n"))
+        
+        else:
+            print("Invalid choice.")
+            continue
+
+### Update Data
 
 def update_table():
 
-    print("TABLES \n"
-    "1. captains\n"
-    "2. boats\n"
-    "3. charters")
-    table = int(input("Enter the number of the table to update: "))
+    sub_loop = True
+    while sub_loop == True:
 
-    def upd_val(value, id):
+        print(show_tables)
+        table_choice = int(input("Enter the number of the table to update: "))
 
-        upd_table = sa.update(table).values({value : value_update}).where(table.columns[id] == update_id)
-        result = connection.execute(upd_table)
-        print("Record updated.")
+        def upd_val(value, id):
 
-    if table == 1:
-        table = captains
-        where_id = "cap_id"
+            upd_table = sa.update(table_choice).values({value : value_update}).where(table_choice.columns[id] == update_id)
+            result = connection.execute(upd_table)
+            print("Record updated.")
 
-        display_table(table)
+        if table_choice == 1:
+            table_choice = captains
+            where_id = "cap_id"
 
-        update_id = int(input("Enter the ID of the row to update: "))
+            display_table(table_choice)
 
-        print("\nVALUES \n"
-        "1. First Name \n"
-        "2. Last Name \n"
-        "3. Email \n"
-        "4. Rating \n")
+            update_id = int(input("Enter the ID of the row to update: "))
 
-        value_choice = int(input("Enter the number of the value to update: "))
-        value_update = input("Enter the new value: ")
+            print("\nVALUES \n"
+            "1. First Name \n"
+            "2. Last Name \n"
+            "3. Email \n"
+            "4. Rating \n")
 
-        value_dict = {
-            1 : "first_name",
-            2 : "last_name",
-            3 : "email",
-            4 : "rating"
-        }
+            value_choice = int(input("Enter the number of the value to update: "))
+            value_update = input("Enter the new value: ")
 
-        upd_val(value_dict[value_choice], where_id)
+            value_dict = {
+                1 : "first_name",
+                2 : "last_name",
+                3 : "email",
+                4 : "rating"
+            }
 
-    if table == 2:
-        table = boats
-        where_id = "boat_id"
+            upd_val(value_dict[value_choice], where_id)
+            continue
 
-        display_table(table)
+        if table_choice == 2:
+            table_choice = boats
+            where_id = "boat_id"
 
-        update_id = int(input("Enter the ID of the row to update: "))
+            display_table(table_choice)
 
-        print("\nVALUES \n"
-        "1. Boat Name \n"
-        "2. Boat Length"
-        )
+            update_id = int(input("Enter the ID of the row to update: "))
 
-        value_choice = int(input("Enter the number of the value to update: "))
-        value_update = input("Enter the new value: ")
+            print("\nVALUES \n"
+            "1. Boat Name \n"
+            "2. Boat Length"
+            )
 
-        value_dict = {
-            1 : "boat_name",
-            2 : "boat_length"
-        }
+            value_choice = int(input("Enter the number of the value to update: "))
+            value_update = input("Enter the new value: ")
 
-        upd_val(value_dict[value_choice], where_id)
+            value_dict = {
+                1 : "boat_name",
+                2 : "boat_length"
+            }
 
-    if table == 3:
-        table = charters
-        where_id = "charter_id"
+            upd_val(value_dict[value_choice], where_id)
+            continue
 
-        display_table(table)
+        if table_choice == 3:
+            table_choice = charters
+            where_id = "charter_id"
 
-        update_id = int(input("Enter the ID of the row to update: "))
+            display_table(table_choice)
 
-        print("\nVALUES \n"
-        "1. Start Date \n"
-        "2. Boat ID \n"
-        "3. Captain ID \n"
-        "4. Return Date"
-        )
+            update_id = int(input("Enter the ID of the row to update: "))
 
-        value_choice = int(input("Enter the number of the value to update: "))
-        value_update = input("Enter the new value: ")
+            print("\nVALUES \n"
+            "1. Start Date \n"
+            "2. Boat ID \n"
+            "3. Captain ID \n"
+            "4. Return Date"
+            )
 
-        value_dict = {
-            1 : "start_date",
-            2 : "boat_id",
-            3 : "cap_id",
-            4 : "return_date"
-        }
+            value_choice = int(input("Enter the number of the value to update: "))
+            value_update = input("Enter the new value: ")
 
-        upd_val(value_dict[value_choice], where_id)
+            value_dict = {
+                1 : "start_date",
+                2 : "boat_id",
+                3 : "cap_id",
+                4 : "return_date"
+            }
 
-update_table()
+            upd_val(value_dict[value_choice], where_id)
+            continue
+
+        if table_choice == 0:
+            sub_loop = False
+            return(print("Back to main menu...\n"))
+        
+        else:
+            print("Invalid choice.")
+            continue
+
 
 ### Select Data
 
-select_stmt = sa.select(captains)
+def select_table():
 
-select_proxy = connection.execute(select_stmt)
-select_result = select_proxy.fetchall()
+    sub_loop = True
+    while sub_loop == True:
 
-pprint(select_result)
+        print(show_tables)
+        table_choice = int(input("Enter the number of the table to view: "))
 
+        if table_choice in [1,2,3]:
+            display_table(table_dict[table_choice])
+            input("Hit ENTER to continue...")
+            continue
+
+        if table_choice == 0:
+            sub_loop = False
+            return(print("Back to main menu...\n"))
+
+        else:
+            print("Invalid choice.")
+            continue
+            
 ### Select/Join Data
 
 
 
 ### Delete Tables and/or Columns
 
-# captains = sa.Table("captains", metadata, autoload=True, autoload_with=engine)
+def delete_from_table():
 
-# delete_table = sa.delete(captains).where(captains.columns.cap_id)
-# results = connection.execute(delete_table)
+    sub_loop = True
+    while sub_loop == True:
+    
+        print(show_tables)
+        table_choice = int(input("Enter the number of the table to delete from: "))
 
-#metadata.drop_all(engine)
+        def delete_row(id):
 
+            del_row = sa.delete(table_choice).where(table_choice.columns[id] == delete_id)
+            result = connection.execute(del_row)
+            print("Record deleted.")
+
+        if table_choice == 1:
+            table_choice = captains
+            where_id = "cap_id"
+
+            display_table(table_choice)
+
+            delete_id = int(input("Enter the ID of the row to delete: "))
+
+            delete_row(where_id)
+            continue
+
+        if table_choice == 2:
+            table_choice = boats
+            where_id = "boat_id"
+
+            display_table(table_choice)
+
+            delete_id = int(input("Enter the ID of the row to delete: "))
+
+            delete_row(where_id)
+            continue
+
+        if table_choice == 3:
+            table_choice = charters
+            where_id = "charter_id"
+
+            display_table(table_choice)
+
+            delete_id = int(input("Enter the ID of the row to delete: "))
+
+            delete_row(where_id)
+            continue
+
+        if table_choice == 0:
+                sub_loop = False
+                return(print("Back to main menu..."))
+            
+        else:
+            print("Invalid choice.")
+            continue
+
+## Main Program
+
+def main():
+
+    main_loop = True
+    while main_loop == True:
+
+        print("MAIN MENU\n"
+        "1. Insert\n"
+        "2. Update\n"
+        "3. Select\n"
+        "4. Delete\n"
+        "0. QUIT")
+
+        choice = int(input("Enter a number for your choice: "))
+
+        if choice == 1:
+            insert_table()
+            continue
+
+        if choice == 2:
+            update_table()
+            continue
+
+        if choice == 3:
+            select_table()
+            continue
+
+        if choice == 4:
+            delete_from_table()
+            continue
+
+        if choice == 0:
+            main_loop == False
+            print("\nGoodbye.")
+            break
+
+        else:
+            print("Invalid choice.")
+            continue
+
+main()
