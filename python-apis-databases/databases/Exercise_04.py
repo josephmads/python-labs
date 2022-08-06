@@ -97,8 +97,7 @@ def display_table(table_choice):
 
     for row in result:
         for item in row:
-            item = str(item)
-            item += ", "
+            item = str(item) + ", "
             row_value += item
         print(row_value)
         row_value = ""
@@ -385,3 +384,6 @@ def main():
             continue
 
 main()
+
+
+      
