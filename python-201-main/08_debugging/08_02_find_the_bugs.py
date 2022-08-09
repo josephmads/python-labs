@@ -1,11 +1,16 @@
 # The code below contains a few bugs. Use your debugger to find and fix them.
 
+from calendar import c
+
+
 unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 6)]
 sorted_list = []
 
+breakpoint()
+
 for x in range(1, len(unsorted_list)):
 
-    minimum = unsorted_list[0][0]
+    minimum = unsorted_list[0][1]
     index = 0
 
     for i in range(1, len(unsorted_list)):
