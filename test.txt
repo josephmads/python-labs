@@ -1,7 +1,0 @@
-Some changes.
-
-
-Other changes locally.
-
-Some other changes on Github.
-
