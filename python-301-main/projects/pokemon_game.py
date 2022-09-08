@@ -1,13 +1,32 @@
-# Build a very basic Pokémon class that allows you to simulate battles
-# in a Rock-Paper-Scissors game mechanic, as well as feed your Pokémon.
-#
-# The class should follow these specifications:
-#
-# - Each Pokemon should have a `name`, `primary_type`, `max_hp` and `hp`
-# - Primary types should be limited to `water`, `fire` and `grass`
-# - Implement a `battle()` method based on rock-paper-scissors that
-#   decides who wins based only on the `primary_type`:
-#       water > fire > grass > water
-# - Display messages that explain who won or lost a battle
-# - If a Pokemon loses a battle, they lose some of their `hp`
-# - If you call the `feed()` method on a Pokemon, they regain some `hp`
+# Pokemon battle simulator
+
+from pokemon import Pokemon
+
+# create available Pokemons
+
+char = Pokemon("Charmander", "fire", 150)
+squirt = Pokemon("Squirtle", "water", 100)
+bulbi = Pokemon("Bulbasaur", "grass", 100)
+
+poke_dict = {1: char, 2: squirt, 3: bulbi}
+
+# allow user to choose their Pokemon
+
+print("POKEMON\n"
+"1: Charmander\n"
+"2: Squirtle\n"
+"3: Bulbasaur")
+player_poke = int(input("Choose your Pokemon: "))
+
+if player_poke == 1:
+    player_poke = poke_dict[1]
+if player_poke == 2:
+    player_poke = poke_dict[2]
+if player_poke == 3:
+    player_poke = poke_dict[3]
+
+# allow user to feed or battle the Pokemon
+
+
+
+# randomly select opponent Pokemon
