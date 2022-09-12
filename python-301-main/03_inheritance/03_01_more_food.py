@@ -22,6 +22,24 @@ class Ingredient:
 class Spice(Ingredient):
     """Models a spice to flavor your food."""
 
+    def __init__(self, name, amount, taste):
+        super().__init__(name, amount)
+        self.taste = taste
+
     def grind(self):
         print(f"You have now {self.amount} of ground {self.name}.")
+
+    def sprinkle(self):
+        print(f"You sprinkle a pinch of {self.name} on your ingredients.")
+
+    def expire(self):
+        if self.name == "salt":
+            print(f"{self.name} never expires!")
+        else:
+            print(f"Your {self.name} has expired. But it's probably still good.")
+        self.name = "old " + self.name
+
+s = Spice("salt", 200, "salty")
+c = Ingredient("carrot", 5,)
+p = Spice("pepper", 30, "hot")
 

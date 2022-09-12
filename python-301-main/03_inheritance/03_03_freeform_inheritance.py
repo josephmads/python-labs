@@ -12,3 +12,21 @@
 #
 # - A `Vehicle()` parent class, with `Truck()` and `Motorcycle()` child classes.
 # - A `Restaurant()` parent class, with `Gourmet()` and `FastFood()` child classes.
+
+class Snake():
+    
+    def __init__(self, length, fangs) -> None:
+        self.length = length
+        self.fangs = fangs
+
+class Lizard(Snake):
+    
+    def __init__(self, length, fangs, claws) -> None:
+        super().__init__(length, fangs)
+        self.claws = claws
+
+class Dragon(Lizard):
+    
+    def __init__(self, length, fangs, claws, wings) -> None:
+        super().__init__(length, fangs, claws)
+        self.wings = wings
