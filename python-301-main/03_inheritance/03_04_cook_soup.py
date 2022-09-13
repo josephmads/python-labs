@@ -1,7 +1,9 @@
-# Create another child class that inherits from `Ingredient()`. You can use
-# the code you wrote yourself, or continue working with the one provided below.
-# Implement at least one extra method for your child class, and override the
-# `expire()` method from the parent `Ingredient()` class.
+# Project: Cook Soup
+# For this project, you'll create a custom Soup() class 
+# that can take Ingredient() and Spice() objects, 
+# and use them to look up soup recipes on the Internet.
+
+from webbrowser import open_new
 
 class Ingredient:
     """Models an Ingredient."""
@@ -39,9 +41,28 @@ class Spice(Ingredient):
             print(f"Your {self.name} has expired. But it's probably still good.")
         self.name = "old " + self.name
 
+class Soup():
+
+    def __init__(self, *args) -> None:
+        self.args = args
+
+    def cook(self):
+        ing_search = "soup+recipe"
+        for item in self.args:
+            ing_search += f"+{item.name}"
+        return open_new(f"https://www.google.com/search?q={ing_search}")
+
+    def __str__(self) -> str:
+        return f"You are making {self.args[0].name} soup!"
+
+
 if __name__ == "__main__":
+    
+    t = Ingredient("tomatoes", 3)
+    m = Ingredient("mushrooms", 4)
+    b = Spice("basil", 5, "herby")
 
-    s = Spice("salt", 200, "salty")
-    c = Ingredient("carrot", 5,)
-    p = Spice("pepper", 30, "hot")
+    soup = Soup(t, m, b)
 
+    soup.cook()
+    print(soup)

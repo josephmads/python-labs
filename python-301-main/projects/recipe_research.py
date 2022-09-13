@@ -34,8 +34,10 @@ class Ingredient:
     def __repr__(self):
         return f"Ingredient(name={self.name}, amount={self.amount})"
 
-peas = Ingredient("peas", 50)
-carrot = Ingredient("carrot", 5)
-ham = Ingredient("ham cubes", 20)
+if __name__ == "__main__":
 
-peas.get_info()
+    peas = Ingredient("peas", 50)
+    carrot = Ingredient("carrot", 5)
+    ham = Ingredient("ham cubes", 20)
+
+    peas.get_info()
