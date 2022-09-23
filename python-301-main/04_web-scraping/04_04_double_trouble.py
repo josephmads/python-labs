@@ -4,3 +4,7 @@
 # data that you receive from both of them.
 # E.g.: You could use the Ghibli API to find all ghosts from their films, and
 #       create an opposing team of Ghost Pokémon from the Poke API.
+
+
+# See WeatherTonka project 
+weather_tonka = "https://github.com/josephmads/WeatherTonka"

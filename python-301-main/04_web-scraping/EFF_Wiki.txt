@@ -1,0 +1,565 @@
+Electronic Frontier Foundation
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+The neutrality of this article is disputed. Relevant discussion may be found on the talk page. Please do not remove this message until conditions to do so are met. (August 2022) (Learn how and when to remove this template message)
+Digital rights group based in the US
+Electronic Frontier FoundationLogo since 2018FoundedJuly 10, 1990; 32 years ago (1990-07-10)FoundersMitch KaporJohn Perry BarlowJohn Gilmore[1]Type501(c)(3) nonprofit organizationTax ID no. 04-3091431PurposeDigital rights, Internet activism, lobbying, and litigationLocation815 Eddy Street, San Francisco, California, U.S.Coordinates37°46′57″N 122°25′18″W﻿ / ﻿37.78262°N 122.42158°W﻿ / 37.78262; -122.42158Coordinates: 37°46′57″N 122°25′18″W﻿ / ﻿37.78262°N 122.42158°W﻿ / 37.78262; -122.42158Area served InternationalChairmanBrian Behlendorf[2]Executive directorCindy Cohn[3]Revenue (2020) $12.2 million[4]Employees  79[5]Websitewww.eff.org
+The Electronic Frontier Foundation (EFF) is an international non-profit digital rights group based in San Francisco, California. The foundation was formed on 10 July 1990 by John Gilmore, John Perry Barlow and Mitch Kapor to promote Internet civil liberties.
+The EFF provides funds for legal defense in court, presents amicus curiae briefs, defends individuals and new technologies from what it considers abusive legal threats, works to expose government malfeasance, provides guidance to the government and courts, organizes political action and mass mailings, supports some new technologies which it believes preserve personal freedoms and online civil liberties, maintains a database and web sites of related news and information, monitors and challenges potential legislation that it believes would infringe on personal liberties and fair use and solicits a list of what it considers abusive patents with intentions to defeat those that it considers without merit.
+
+Contents
+
+1 History
+
+1.1 Foundation
+1.2 Early cases
+1.3 Expansion and development
+1.4 DES cracker
+
+
+2 Activities
+
+2.1 Legislative activity
+2.2 Litigation
+2.3 Patent Busting Project
+2.4 Enfranchisement activism
+2.5 Content moderation reform
+2.6 Awards
+2.7 Publications
+
+
+3 Software
+
+3.1 Secure Messaging Scorecard
+
+
+4 Support
+
+4.1 Financial
+4.2 Other
+
+
+5 See also
+6 Notes
+7 References
+8 External links
+
+
+History[edit]
+Further information: Timeline of Electronic Frontier Foundation actions
+ EFF logo used until July 2018
+Electronic Frontier Foundation founders Kapor, Gilmore and Barlow
+Foundation[edit]
+The Electronic Frontier Foundation was formed in July 1990 by John Gilmore, John Perry Barlow and Mitch Kapor in response to a series of actions by law enforcement agencies that led them to conclude that the authorities were gravely uninformed about emerging forms of online communication,[6] and that there was a need for increased protection for Internet civil liberties.
+In April 1990, Barlow had been visited by a U.S. Federal Bureau of Investigation agent in relation to the theft and distribution of the source code for a series of Macintosh ROMs. Barlow described the visit as "complicated by [the agent's] fairly complete unfamiliarity with computer technology. I realized right away that before I could demonstrate my innocence, I would first have to explain to him what guilt might be." Barlow felt that his experience was symptomatic of a "great paroxysm of governmental confusion during which everyone's liberties would become at risk".[7]
+Barlow posted an account of this experience to The WELL online community and was contacted by Mitch Kapor, who had had a similar experience. The pair agreed that there was a need to defend civil liberties on the Internet. Kapor agreed to fund any legal fees associated with such a defense and the pair contacted New York lawyers Rabinowitz, Boudin, Standard, Krinsky and Lieberman about defending several computer hackers from a Harper's magazine forum on computers and freedom who had been the target of Secret Service raids.[6] This generated a large amount of publicity which led to offers of financial support from John Gilmore and Steve Wozniak. Barlow and Kapor continued to research conflicts between the government and technology and in June 1990, Barlow posted online the influential article entitled "Crime & Puzzlement" in which Barlow announced his and Kapor's plans to create an organization to "raise and disburse funds for education, lobbying, and litigation in the areas relating to digital speech and the extension of the Constitution into Cyberspace."[8]
+This generated further reaction and support for the ideas of Barlow and Kapor. In late June, Barlow held a series of dinners in San Francisco with major figures in the computer industry to develop a coherent response to these perceived threats. Barlow considered that: "The actions of the FBI and Secret Service were symptoms of a growing social crisis: Future Shock. America was entering the Information Age with neither laws nor metaphors for the appropriate protection and conveyance of information itself."[9] Barlow felt that to confront this a formal organization would be needed; he hired Cathy Cook as press coordinator, and began to set up what would become the Electronic Frontier Foundation.
+The Electronic Frontier Foundation was formally founded on July 10, 1990, by Kapor and Barlow, who very soon after elected Gilmore, Wozniak, and Stewart Brand to join them on the board of directors.[9]  Initial funding was provided by Kapor, Wozniak, and an anonymous benefactor.[10][11]
+In 1990, Mike Godwin joined the organization as its first staff counsel. Then in 1991, Esther Dyson and Jerry Berman joined the EFF board of directors. By 1992, Cliff Figallo became the director of the original office, and in December 1992, Jerry Berman became the acting executive director of the organization as a whole, based in a new second office.
+
+Early cases[edit]
+The creation of the organization was motivated by the massive search and seizure on Steve Jackson Games executed by the United States Secret Service early in 1990. Similar but officially unconnected law-enforcement raids were being conducted across the United States at about that time as part of a state–federal task force called Operation Sundevil. GURPS Cyberpunk, one of the game company's projects, was mistakenly labeled as a handbook for computer crime,[12] and the Secret Service raided the offices of Steve Jackson Games. The search warrant for the raid was deemed hastily issued, and the games company soon after claimed unauthorized access as well as tampering of their emails. While phone calls were protected by legislation, digital emails were an early concept and had not been considered to fall under the right to personal privacy. The Steve Jackson Games case was the EFF's first high-profile case, was the major rallying point around which the EFF began promoting computer- and Internet-related civil liberties.[13][failed verification]
+The EFF's second big case was Bernstein v. United States led by Cindy Cohn, in which programmer and professor Daniel J. Bernstein sued the government for permission to publish his encryption software, Snuffle, and a paper describing it. More recently, the organization has been involved in defending Edward Felten, Jon Lech Johansen and Dmitry Sklyarov.[14]
+
+Expansion and development[edit]
+This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (October 2017) (Learn how and when to remove this template message)
+ In early 2010, EFF released this poster in celebration of its founding 20 years before.
+The organization was originally located at Mitch Kapor's Kapor Enterprises offices.[15] By the fall of 1993, the main EFF offices were consolidated into a single office,[15] headed by Executive Director Jerry Berman. During this time, some of the EFF's attention focused on influencing national policy,[15] to the dislike of some of the members of the organization.[15][16] In 1994, Berman parted ways with the EFF and formed the Center for Democracy and Technology,[15] while Drew Taubman briefly took the reins as executive director.
+In 1995, under the auspices of Executive Director Lori Fena, after some downsizing and in an effort to regroup and refocus on their base of support,
+the organization moved offices to San Francisco, California.[15][16] There, it took up temporary residence at John Gilmore's Toad Hall, and soon afterward moved into the Hamm's Building at 1550 Bryant St. After Fena moved onto the EFF board of directors for a while, the organization was led briefly by Tara Lemmey, followed by Barry Steinhardt (who had come from the closely allied Technology and Liberty Program at the American Civil Liberties Union (ACLU), and eventually returned to the ACLU). Not long before EFF's move into new offices at 454 Shotwell St. in SF's Mission District, Mike Godwin departed, long-time Legal Director Shari Steele was appointed executive director, and staff attorney Cindy Cohn became the legal director.
+In the spring of 2006, the EFF announced the opening of an office again in Washington, D.C., with two new staff attorneys.[17] In 2012, the EFF began a fundraising campaign for the renovation of a building located at 815 Eddy Street in San Francisco, to serve as its new headquarters.[18] The move was completed in April 2013.[19] On April 1, 2015, Shari Steele stepped down as executive director.[20] Cindy Cohn became the new executive director, Corynne McSherry became the legal director, and Kurt Opsahl became the general counsel.
+
+DES cracker[edit]
+Main article: EFF DES cracker
+By the mid-1990s the EFF was becoming seriously concerned about the refusal of the US government to license any secure encryption product for export unless it utilized key recovery and claims that governments could not decrypt information when protected by Data Encryption Standard (DES), continuing even after the public breaking of the code in the first of the DES Challenges. They coordinated and supported the construction of the EFF DES cracker (nicknamed Deep Crack), using special purpose hardware and software and costing $210,000.[21][22] This brought the record for breaking a message down to 56 hours on 17 July 1998 and to under 24 hours on 19 January 1999 (in conjunction with distributed.net).
+The EFF published the plans and source code for the cracker.[23] Within four years the Advanced Encryption Standard was standardized as a replacement for DES.[24]
+
+Activities[edit]
+Legislative activity[edit]
+The EFF is a leading supporter of the Email Privacy Act.[25]
+
+Litigation[edit]
+ EFF booth at the 2010 RSA Conference
+Main article: List of litigation involving the Electronic Frontier Foundation
+The EFF regularly brings and defends lawsuits at all levels of the US legal system in pursuit of its goals and objectives. The EFF has long taken a stance against strategic lawsuits against public participation (SLAPP) as attempts to stymie free speech and advocated for effective anti-SLAPP legislation.[26][27] Many of the most significant technology law cases have involved the EFF, including MGM Studios, Inc. v. Grokster, Ltd., Apple v. Does, and others.
+
+Patent Busting Project[edit]
+The Patent Busting Project is an Electronic Frontier Foundation (EFF) initiative challenging patents that the organization claims are illegitimate and suppress innovation or limit online expression. The initiative launched on April 19, 2004, and involves two phases: documenting the damage caused by these patents, and submitting challenges to the United States Patent and Trademark Office.[28]
+
+Enfranchisement activism[edit]
+The EFF has long been an advocate of paper audit trails for voting machines and testified in support of them after the United States presidential election 2004.[29] Later, it funded the research of Hariprasad Vemuru who exposed vulnerabilities in a particular model.[30] Since 2008, the EFF has operated the Our Vote Live website and database. Staffed by hotline volunteers, it is designed to quickly document irregularities and instances of voter suppression as they occur on an election day.[31]
+The EFF was active in the United States presidential election 2016 because of online phishing related to the controversy over fabrication of election results. J. Alex Halderman, a computer security professor at the University of Michigan, wrote an article that was published in Medium in 2016 stating he thought it was advisable to have a recount on some of the election results from states like Wisconsin, Michigan, and Pennsylvania, exclusively states Hillary Clinton lost.[32] In retaliation against Halderman, a hacker sent anti-Semitic and racist emails to students at University of Michigan signed from Halderman. The EFF publicizes these controversies and promotes the reduction of online phishing.[33]
+
+Content moderation reform[edit]
+In the spring of 2018, the EFF joined the Open Technology Institute (OTI), the Center for Democracy & Technology, the ACLU Foundation of Northern California and four academics in writing The Santa Clara Principles: On Transparency and Accountability in Content Moderation. The document sets out the following guidelines for social networks.[34]
+
+Statistics on removed posts should be publicly available.
+Banned users or users who have had posts deleted should be notified with clear reasons.
+Such users should have the opportunity to appeal and have that appeal read by a human.
+Six months later, the same organizations sought the support of roughly 80 others, including Article 19, in calling for Facebook to adopt the Santa Clara Principles.[35] This was later updated with a request for Facebook to warn users who have interacted with sock puppet law enforcement accounts.[36]
+In 2019, the EFF and OTI delivered testimony about the Online Harms White Paper in the United Kingdom. They commented that several proposals to increase the amount of regulation on social media were open to abuse.[37] Also in 2019, the EFF launched the website "TOSsed out" to document cases of moderation rules being applied inconsistently.[38] Cindy Cohn underscored their commitment to upholding free speech online, writing that "once you’ve turned it on, whether through pressure or threats of lawsuits, the power to silence people doesn’t just go in one direction."[39]
+
+Awards[edit]
+The EFF organizes two sets of awards to promote work in accordance with its goals and objectives:
+The EFF Pioneer Awards are awarded annually to recognize individuals who in its opinion are "leaders who are extending freedom and innovation on the electronic frontier."[40] In 2017, the honorees were Chelsea Manning, Mike Masnick and Annie Game.[41]
+The EFF Cooperative Computing Awards are a series of four awards meant "to encourage ordinary Internet users to contribute to solving huge scientific problems," to be awarded to the first individual or group who discovers a prime number with a significant record number of decimal digits. The awards are funded by an anonymous donor.[42]
+The awards are:
+
+$50,000 to the first individual or group who discovers a prime number with at least 1,000,000 decimal digits – Awarded April 6, 2000[43]
+$100,000 to the first individual or group who discovers a prime number with at least 10,000,000 decimal digits – Awarded October 14, 2009[44]
+$150,000 to the first individual or group who discovers a prime number with at least 100,000,000 decimal digits
+$250,000 to the first individual or group who discovers a prime number with at least 1,000,000,000 decimal digits.
+Publications[edit]
+EFF publishes through several outlets such as the online periodical EFFector,[45] as well as its websites, blogs, and on social networking services.
+EFF's first book was published in 1993 as The Big Dummy's Guide to the Internet, a beginners' how-to manual by contracted technical writer Adam Gaffin, and made available for free download in many formats. MIT Press published it in paperback form in 1994 as Everybody's Guide to the Internet (ISBN 9780262571050). The online edition was updated regularly throughout the 1990s and early 2000s, and translated into dozens of languages.
+The organization's second book, Protecting Yourself Online (ISBN 9780062515124), an overview of digital civil liberties, was written in 1998 by technical writer Robert B. Gelman and EFF Communications Director Stanton McCandlish, and published by HarperCollins.
+A third book, Cracking DES: Secrets of Encryption Research, Wiretap Politics & Chip Design (ISBN 9781565925205), focusing on EFF's DES Cracker project, was published the same year by O'Reilly Media.
+A digital book, Pwning Tomorrow, an anthology of speculative fiction, was produced in 2015 as part of EFF's 25th anniversary activities, and includes contributions from 22 writers, including Charlie Jane Anders, Paolo Bacigalupi, Lauren Beukes, David Brin, Pat Cadigan, Cory Doctorow, Neil Gaiman, Eileen Gunn, Kameron Hurley, James Patrick Kelly, Ramez Naam, Annalee Newitz, Hannu Rajaniemi, Rudy Rucker, Lewis Shiner, Bruce Sterling, and Charles Yu.[46]
+The Electronic Frontier Foundation's blog, DeepLinks, is a major section of its main website at EFF.org.
+The EFF sent a video message of support to global grassroots movement CryptoParty.[47]
+
+Software[edit]
+The EFF has developed some software and browser add-ons, including Switzerland, HTTPS Everywhere, and Privacy Badger.
+
+Secure Messaging Scorecard[edit]
+The EFF conducted a project named Secure Messaging Scorecard which "evaluated apps and tools based on a set of seven specific criteria ranging from whether messages were encrypted in transit to whether or not the code had been recently audited."[48] As of April 21, 2017[update], a revised version is under development.[48]
+
+Support[edit]
+As of 2021, Charity Navigator has given the EFF an overall rating of four out of four stars, including four stars for its financial efficiency and capacity.[49]
+
+Financial[edit]
+EFF as of 2014[update] had $23 million in assets,[50] having received multiple grants or donations above 1 million dollars in its history. On February 18, 2004, the EFF announced that it had received a bequest of US$1.2 million from the estate of EFF member Leonard Zubkoff, a software developer and entrepreneur.[51] It used $1 million of this money to establish the EFF Endowment Fund for Digital Civil Liberties.
+Beginning in 2010, the EFF began regularly receiving income from the Humble Indie Bundle. In 2010, these donations made up 14% of EFF's total revenue.[52]  Between 2011 and 2014, the amount received from Humble Bundle reached $7.5 million or 23% of the EFF total revenues.[50][53][54]
+In 2011, the EFF received $1 million from Google as part of a settlement of a class action related to privacy issues involving Google Buzz.
+The Electronic Privacy Information Center and seven other privacy-focused nonprofits protested that the plaintiffs' lawyers and Google had, in effect, arranged to give the majority of those funds "to organizations that are currently paid by Google to lobby for or to consult for the company". An additional $1 million was obtained from Facebook in a similar settlement.[55]
+In December 2014, the Adams Charitable Foundation granted EFF a $3 million endowment to fund the new Adams Chair for Internet Rights.[50]
+
+Other[edit]
+The agitprop art group Psychological Industries has independently issued buttons with pop culture tropes such as the logo of the Laughing Man from the anime series Ghost in the Shell: Stand Alone Complex (with the original The Catcher in the Rye quotation replaced with the slogan of Anonymous), a bleeding roller derby jammer, and the "We Can Do It!" woman (often misidentified as Rosie the Riveter) on a series of buttons on behalf of the EFF.[56]
+In late June 2014 the EFF flew a GEFA-FLUG AS 105 GD/4[57] blimp owned by, and in conjunction with, Greenpeace over the NSA's Bluffdale-based Utah Data Center in protest against its purported illegal spying.[58]
+
+See also[edit]
+
+Clipper chip
+Digital rights
+European Digital Rights (EDRi)
+Electronic Frontier Canada
+Electronic Frontiers Australia
+Freedom of the Press Foundation
+Hardware restrictions
+Information freedom
+Internet censorship
+League for Programming Freedom
+OpenMedia.ca
+Open Rights Group, (UK-based)
+Protection of Broadcasts and Broadcasting Organizations Treaty
+Reporters Without Borders
+
+Notes[edit]
+
+
+^ "A History of Protecting Freedom Where Law and Technology Collide". EFF.org. Electronic Frontier Foundation. 2011-10-07. Retrieved February 20, 2015.
+
+^ "Board of Directors". EFF.org. Electronic Frontier Foundation. Retrieved February 20, 2015.
+
+^ "Cindy Cohn to Become EFF's New Executive Director in 2015". EFF.org. Electronic Frontier Foundation. November 5, 2014. Retrieved February 20, 2015.
+
+^ Roberts, Ken Schwencke, Mike Tigas, Sisi Wei, Alec Glassford, Andrea Suozzo, Brandon (2013-05-09). "Electronic Frontier Foundation Inc - Nonprofit Explorer". ProPublica. Retrieved 2022-09-13.
+
+^ "Public 990 – Fiscal Year 2017". EFF.org. Electronic Frontier Foundation. 2017. Retrieved January 30, 2020.
+
+^ a b Jones 2003, p. 172
+
+^ "A Not Terribly Brief History of the Electronic Frontier Foundation". Electronic Frontier Foundation. 2014-07-15. Retrieved 2020-10-24.
+
+^ Barlow, John Perry (June 8, 1990). "Crime & Puzzlement". w2.EFF.org. Electronic Frontier Foundation. Archived from the original on 2014-10-24. Retrieved August 10, 2016.
+
+^ a b Barlow, John (November 8, 1990). "A Not Terribly Brief History of the Electronic Frontier Foundation". Electronic Frontier Foundation. Archived from the original on March 3, 2016. Retrieved December 12, 2015.
+
+^ Kapor, Mitch; Barlow, John Perry (July 10, 1990). "Formation documents and mission statement for the EFF". Electronic Frontier Foundation. Archived from the original on 2015-12-04. Retrieved September 11, 2012.
+
+^ Lebkowsky, Jon (January 11, 1997). "TechnoPolitics". Weblogsky. Archived from the original on November 10, 2006. Retrieved September 11, 2012.
+
+^ "SJ Games vs. the Secret Service". Steve Jackson Games. Retrieved 2018-05-27.
+
+^ Steve Jackson Games, Inc. v. US Secret Service, vol. 36, October 31, 1994, p. 457, retrieved 2018-05-27
+
+^ "Bernstein v. US Department of Justice". Electronic Frontier Foundation. 2011-07-01. Retrieved 2020-10-30.
+
+^ a b c d e f Harris, Scott (2002). "Freedom Fighters of the Digital World". Los Angeles Times. Archived from the original on 17 January 2002. Retrieved 10 October 2018.
+
+^ a b Timberg, Craig (2013). "Try as it might, anti-surveillance group can't avoid Washington". The Washington Post. Archived from the original on 2013-10-12. Retrieved 10 October 2018.
+
+^ McCullagh, Declan (2006-04-27). "EFF reaches out to D.C. with new office". CNET. Retrieved September 11, 2012.
+
+^ "The New EFF HQ". Electronic Frontier Foundation. Retrieved December 2, 2014.
+
+^ Maass, Dave (2013-04-15). "The Eddy Street Era Begins". Electronic Frontier Foundation. Retrieved 2 December 2014.
+
+^ "Shari Steele: A Legacy of Digital Rights". Electronic Frontier Foundation. 2015-04-02. Retrieved 10 April 2015.
+
+^ "EFF DES Cracker Machine Brings Honesty to Crypto Debate". Electronic Frontier Foundation. July 17, 1998. Archived from the original on 2012-07-22. Retrieved September 11, 2012.
+
+^ "Frequently Asked Questions (FAQ) About the Electronic Frontier Foundation's 'DES Cracker' Machine". Electronic Frontier Foundation. July 16, 1998. Archived from the original on 2012-09-18. Retrieved September 11, 2012.
+
+^ Electronic Frontier Foundation (1998). Cracking DES - Secrets of Encryption Research, Wiretap Politics & Chip Design. O'Reilly Media. ISBN 978-1-56592-520-5.
+
+^ Burr, William E. (2003). "Selecting the Advanced Encryption Standard" (PDF). IEEE Security & Privacy. 99 (2): 43–52. doi:10.1109/MSECP.2003.1193210.
+
+^ Sophia Cope, House Advances Email Privacy Act, Setting the Stage for Vital Privacy Reform, Electronic Frontier Foundation (April 27, 2016).
+
+^ "SLAPP: the background of Strategic Lawsuits Against Public Participation".
+
+^ Ruiz, David (2018-09-14). "EFF Helps Launch Anti-SLAPP Task Force 'Protect the Protest'". Electronic Frontier Foundation. Retrieved 2021-03-02.
+
+^ Bangeman, Eric (2008-02-03). "EFF's patent busters take on broad multiplayer gaming patent". Ars Technica. Retrieved 2019-11-21.
+
+^ Timothy B. Lee (2007-04-02). "Congress finally considers aggressive e-voting overhaul". Ars Technica. Retrieved 2019-11-21.
+
+^ A Srinivasa Rao (2010-10-26). "EVMs can easily be tampered with". India Today. Retrieved 2019-11-21.
+
+^ Catone, Joshua (2012-10-02). "How social media can safeguard your vote". Mashable. Retrieved 2019-11-21.
+
+^ Halderman, J. Alex (November 23, 2016). "Want to Know if the Election was Hacked? Look at the Ballots". Medium.
+
+^ Williams, Jamie (February 13, 2017). "Not Okay: Professor Smeared After Advocating for Election Integrity". Electronic Frontier Foundation.
+
+^ Hatmaker, Taylor (2018-05-07). "Tech watchdogs call on Facebook and Google for transparency around censored content". Tech Crunch. Retrieved 2019-11-22.
+
+^ Haskins, Caroline (2018-11-15). "86 organizations demand Zuckerberg to improve takedown appeals". Vice. Retrieved 2019-11-22.
+
+^ Doctorow, Cory (2019-04-15). "EFF to Facebook: enforce your rules banning cops from creating sockpuppet accounts and be transparent when you catch cops doing it". BoingBoing. Retrieved 2019-11-22.
+
+^ Eggerton, John (2019-07-03). "Digital freedom groups caution UK on content regulation". Multichannel News. Retrieved 2019-11-22.
+
+^ Nelson, Sharon; Simek, John (2019-07-30). "Electronic Frontier Foundation takes on online speech moderation with TOSsed Out". Slaw Magazine. Retrieved 2019-11-22.
+
+^ Cohn, Cindy (2019-08-09). "When Limiting Online Speech to Curb Violence, We Should Be Careful". Wired. Retrieved 2019-11-22.
+
+^ "EFF Pioneer Awards". EFF.org. Electronic Frontier Foundation. Retrieved September 11, 2012.
+
+^ "Whistleblower Chelsea Manning, Techdirt Founder Mike Masnick, and Free Expression Defender Annie Game Named Electronic Frontier Foundation Pioneer Award Winners". Electronic Frontier Foundation. 16 August 2017. Retrieved 31 August 2017.
+
+^ "EFF Cooperative Computing Awards". EFF.org. Electronic Frontier Foundation. 29 February 2008. Retrieved September 11, 2012.
+
+^ Bishop, Katina (April 6, 2000). "Big Prime Nets Big Prize: EFF Gives $50,000 to Finder of Largest Known Prime Number". w2.EFF.org. Electronic Frontier Foundation. Archived from the original on September 16, 2016. Retrieved September 11, 2012.
+
+^ Knoll, Landon (October 14, 2009). "Record 12-million-digit Prime Number Nets $100,000 Prize". EFF.org. Electronic Frontier Foundation. Retrieved September 11, 2012.
+
+^ "EFFector : A Publication of the Electronic Frontier Foundation". Effector Online. Electronic Frontier Foundation. ISSN 1062-9424. Retrieved October 9, 2013.
+
+^ Maass, Dave (December 16, 2015). "EFF Publishes 'Pwning Tomorrow,' a Speculative Fiction Anthology". EFF.org. Electronic Frontier Foundation. Retrieved August 10, 2016.
+
+^ "Message from EFF San Francisco to Cryptoparty Melbourne". Electronic Frontier Foundation. Archived from the original on July 19, 2013. Retrieved July 17, 2013 – via YouTube.
+
+^ a b "Secure Messaging Scorecard". EFF. Archived from the original on 15 November 2016. Retrieved 21 April 2017.
+
+^ "Electronic Frontier Foundation: Overall Score and Rating". Charity Navigator. Archived from the original on 2021-08-11. Retrieved 2021-09-02.
+
+^ a b c "Statement of Activities: July 2013 – June 2014" (PDF). EFF.org. Electronic Frontier Foundation. 2014. Archived (PDF) from the original on 2016-09-12. Retrieved August 10, 2016.
+
+^ "Internet Pioneer Gives Over $1.2 Million to EFF to Defend Online Freedom". w2.EFF.org. Electronic Frontier Foundation. Archived from the original on September 28, 2012. Retrieved December 8, 2011.
+
+^ Esguerra, Richard (July 28, 2011). "The Humble Indie Bundle: Epic Win for Creators, Customers, and Digital Civil Liberties". EFF.org. Electronic Frontier Foundation. Retrieved May 19, 2013.
+
+^ "Statement of Activities: July 2012 – June 2012" (PDF). EFF.org. Electronic Frontier Foundation. 2013. Retrieved August 10, 2016.
+
+^ "Statement of Activities: July 2011 – June 2012" (PDF). EFF.org. Electronic Frontier Foundation. 2012. Retrieved August 10, 2016.
+
+^ Parloff, Roger (July 30, 2012). "Google and Facebook's new tactic in the tech wars". Fortune. Time, Inc. Archived from the original on February 26, 2014. Retrieved December 3, 2014.
+
+^ "Greetings Internet Citizen". OneMillionButtonsForDigitalFreedom.com. Discordia Merchandising. Archived from the original on October 4, 2012. Retrieved September 11, 2012.{{cite web}}:  CS1 maint: bot: original URL status unknown (link)
+
+^ "Protesters Launch a 135-Foot Blimp Over the NSA's Utah Data Center - Slashdot". Yro.slashdot.org. Retrieved 2 December 2014.
+
+^ Greenberg, Andy (June 27, 2014). "Protestors Launch a 135-Foot Blimp Over the NSA's Utah Data Center". Wired.com. Condé Nast Publications. Retrieved December 2, 2014.
+
+
+References[edit]
+
+Gelman, Robert B.; Stanton McCandlish (1998). Protecting Yourself Online: The Definitive Resource on Safety, Freedom & Privacy in Cyberspace. New York: HarperEdge. ISBN 0-06-251512-8.
+Godwin, Mike (2003). Cyber Rights: Defending Free Speech in the Digital Age. Cambridge: MIT Press. ISBN 0-262-57168-4.
+Goldsmith, Jack (2006). Who Controls the Internet?. Oxford Oxfordshire: Oxford University Press. ISBN 0-19-515266-2.
+Jones, Steve (2003). Encyclopedia of New Media. Thousand Oaks: Sage Publications. ISBN 0-7619-2382-9.
+Sterling, Bruce (1993). The Hacker Crackdown: Law And Disorder On The Electronic Frontier. London: Bantam. ISBN 0-553-56370-X.
+
+External links[edit]
+
+
+
+Wikinews has news related to:
+ Electronic Frontier Foundation  
+
+
+
+
+Wikimedia Commons has media related to Electronic Frontier Foundation.
+
+Official website 
+Electronic Frontier Foundation's channel on YouTube
+EFF's Secure Messaging Scorecard (version 1.0)
+Works by Electronic Frontier Foundation at Project Gutenberg
+Big Dummy's Guide to the Internet by Electronic Frontier Foundation. Project Gutenberg.
+Works by or about Electronic Frontier Foundation at Internet Archive
+"How To Bypass Internet Censorship". Archived from the original on 2014-12-19. also known by the titles: "Bypassing Internet Censorship or Circumvention Tools". flossmanuals.net. 2011-03-10. p. 240. Archived from the original on 2015-02-07. Retrieved 2015-02-08.
+vtePrivacyPrinciples
+Expectation of privacy
+Right to privacy
+Right to be forgotten
+Post-mortem privacy
+Privacy laws
+Australia
+Canada
+China
+Denmark
+England
+European Union
+Germany
+Ghana
+New Zealand
+Russia
+Singapore
+Switzerland
+United States
+California, amended in 2020
+Data protection authorities
+Australia
+Denmark
+European Union
+France
+Germany
+Ireland
+Isle of Man
+Norway
+Philippines
+Poland
+South Korea
+Spain
+Sweden
+Switzerland
+Turkey
+Thailand
+United Kingdom
+Areas
+Consumer
+Medical
+Workplace
+Information privacy
+Law
+Financial
+Internet
+Personal data
+Personal identifier
+Privacy-enhancing technologies
+Social networking services
+Privacy engineering
+Secret ballot
+Advocacy organizations
+American Civil Liberties Union
+Center for Democracy and Technology
+Computer Professionals for Social Responsibility
+Future of Privacy Forum
+Electronic Privacy Information Center
+Electronic Frontier Foundation
+European Digital Rights
+Global Network Initiative
+International Association of Privacy Professionals
+NOYB
+Privacy International
+See also
+Anonymity
+Carding
+Cellphone surveillance
+Cyberstalking
+Data security
+Eavesdropping
+Global surveillance
+Electronic harassment
+Mass surveillance
+Privacy engineering
+Telephone tapping
+Human rights
+Identity theft
+Panopticon
+Personality rights
+Search warrant
+
+ Category
+
+vteIntellectual property activismIssues
+Artificial scarcity
+Copyright infringement
+Copyright troll
+Digital rights management
+Gripe site
+Legal aspects of file sharing
+Mashup
+digital
+music
+novel
+videos
+Monopolies of knowledge
+Music piracy
+Orphan works
+Patents
+biological
+software
+software patent debate
+trolling
+Public domain
+Concepts
+All rights reversed
+Alternative compensation system
+Anti-copyright notice
+Business models for open-source software
+Copyleft
+Commercial use of copyleft works
+Commons-based peer production
+Electronic sell-through
+Free content
+Free-software license
+Libertarian positions
+Open content
+Open-design movement
+Open music model
+Open patent
+Open source
+hardware
+software
+Prizes instead of patents
+contests
+Share-alike
+Video on demand
+Movements
+Access to Knowledge movement
+Anti-copyright
+Cultural environmentalism
+Free-culture movement
+Free software movement
+OrganizationsPro-copyright
+Copyright Alliance
+Pro-copyleft
+Creative Commons
+Electronic Frontier Foundation
+Free Software Foundation
+Open Rights Group
+Organization for Transformative Works
+The Pirate Bay
+Piratbyrån
+Pirate Party
+Public Knowledge
+Sci-Hub
+Students for Free Culture
+People
+Cory Doctorow
+Alexandra Elbakyan
+Rick Falkvinge
+Lawrence Lessig
+Richard Stallman
+Peter Suber
+Peter Sunde
+Aaron Swartz
+Documentaries
+Steal This Film (2006, 2007)
+Good Copy Bad Copy (2007)
+RiP!: A Remix Manifesto (2008)
+TPB AFK: The Pirate Bay Away From Keyboard (2013)
+The Internet's Own Boy (2014)
+
+vtePatriot ActTitles
+I · II · III · IV · V · VI · VII · VIII · IX · X · HistoryActs modified
+Omnibus Crime Control and Safe Streets Act of 1968
+Electronic Communications Privacy Act
+Computer Fraud and Abuse Act
+Foreign Intelligence Surveillance Act
+Family Educational Rights and Privacy Act
+Money Laundering Control Act
+Bank Secrecy Act
+Right to Financial Privacy Act
+Fair Credit Reporting Act
+Immigration and Nationality Act of 1952
+Victims of Crime Act of 1984
+Telemarketing and Consumer Fraud and Abuse Prevention Act
+People
+George W. Bush
+John Ashcroft
+Alberto Gonzales
+Patrick Leahy
+Orrin Hatch
+Jon Kyl
+Dianne Feinstein
+Viet D. Dinh
+Joe Biden
+Michael Chertoff
+Barack Obama
+Eric Holder
+Chuck Schumer
+Lamar Smith
+Bob Graham
+Jay Rockefeller
+Arlen Specter
+Mike Oxley
+Dick Armey
+Paul Sarbanes
+Trent Lott
+Tom Daschle
+Russ Feingold
+Ellen Huvelle
+Ron Paul
+Lisa Murkowski
+Ron Wyden
+Dennis Kucinich
+Larry Craig
+John E. Sununu
+Richard Durbin
+Bernie Sanders
+Jerry Nadler
+John Conyers Jr.
+Butch Otter
+Governmentorganizations
+Federal Bureau of Investigation
+Department of Justice
+Select Committee on Intelligence
+Department of the Treasury
+FinCEN
+Department of State
+National Institute of Standards and Technology
+Customs Service
+U.S. Immigration and Customs Enforcement
+Non-governmentorganizations
+American Civil Liberties Union
+American Library Association
+Center for Democracy and Technology
+Center for Public Integrity
+Electronic Frontier Foundation
+Electronic Privacy Information Center
+Humanitarian Law Project
+
+Authority control General
+ISNI
+1
+VIAF
+1
+WorldCat
+National libraries
+Norway
+Germany
+Israel
+United States
+Australia
+Other
+SUDOC (France)
+1
+
+Portals: Freedom of speech Internet San Francisco Bay Area
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Electronic_Frontier_Foundation&oldid=1110114410"
+Categories: Electronic Frontier FoundationAccess to Knowledge movementCharities based in CaliforniaCivil liberties advocacy groups in the United StatesComputer law organizationsDigital rights organizationsFoundations based in the United StatesFreedom of expression organizationsHumble BundleIntellectual property activismInternet privacy organizationsInternet-related activismMission District, San FranciscoOrganizations based in San FranciscoOrganizations established in 1990Politics and technologyPrivacy in the United StatesPrivacy organizationsHidden categories: CS1 maint: bot: original URL status unknownWikipedia neutral point of view disputes from August 2022All Wikipedia neutral point of view disputesArticles with short descriptionShort description is different from WikidataCoordinates on WikidataAll articles with failed verificationArticles with failed verification from February 2019Articles needing additional references from October 2017All articles needing additional referencesArticles containing potentially dated statements from April 2017All articles containing potentially dated statementsArticles containing potentially dated statements from 2014Pages using div col with small parameterCommons category link is on WikidataArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with ISNI identifiersArticles with VIAF identifiersArticles with WORLDCATID identifiersArticles with BIBSYS identifiersArticles with GND identifiersArticles with J9U identifiersArticles with LCCN identifiersArticles with NLA identifiersArticles with SUDOC identifiersArticles containing video clips
