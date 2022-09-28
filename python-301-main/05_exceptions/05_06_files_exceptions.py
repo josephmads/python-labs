@@ -13,3 +13,16 @@
 #    should NEVER terminate with a Traceback.
 #     a) Which exception can you expect to encounter? Why?
 #     b) How do you catch it to avoid the program from terminating with a traceback?
+
+book_list = ["books/war_and_peace.txt", "books/pride_and_prejudice.txt",
+            "books/crime_and_punishment.txt"]
+
+with open(book_list[0], "r") as fin:
+    war = fin.read()
+
+with open(book_list[2], "w") as fout:
+    fout.write("")
+
+for book in book_list:
+    with open(book, "r") as fin:
+        print(fin.read(1))
