@@ -45,7 +45,7 @@ if __name__ == "__main__":
     for r_link in recipe_links:
         URL = f"{BASE_URL}/{r_link}"
         soup = make_soup(get_html_content(URL))
-        # breakpoint()
         author = get_author(soup)
         recipe = get_recipe(soup)
+        # breakpoint()
         print(f"({author})\t[{recipe}]\n\n\n")

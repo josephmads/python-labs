@@ -10,3 +10,10 @@
 # Keep in mind that you will run into an error when you'll attempt to import
 # this file, because Python modules can't begin with a number.
 # You can rename the file to make it work :)
+
+def double_or_nothing(num):
+    if num % 2 == 0:
+        return num * 2
+    elif num % 2 != 0:
+        return 0
+
