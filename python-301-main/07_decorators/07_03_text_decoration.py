@@ -7,3 +7,17 @@
 # ******************************
 # Hello
 # ******************************
+
+def decorate_with(chr):
+    def decorate_func(func):
+        def wrapper(msg):
+            msg = f"{chr * 20}\n{msg}\n{chr * 20}"
+            return func(msg)
+        return wrapper
+    return decorate_func
+
+@decorate_with("$")
+def message(text):
+    print(text)
+
+message("money")
